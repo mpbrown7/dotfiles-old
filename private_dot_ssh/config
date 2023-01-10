@@ -1,10 +1,9 @@
 Host *
 HostKeyAlgorithms +ssh-rsa
 
-Host *github.ibm.com
-User matthew-brown
-IdentityFile ~/.ssh/id_rsa
-#IdentitiesOnly yes
+Host *github.com
+User mpbrown7
+IdentityFile ~/.ssh/id_ed25519_github
 
 Host yellow
 User mpbrown
